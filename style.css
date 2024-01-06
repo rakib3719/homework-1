@@ -1,0 +1,141 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+header{
+
+  background-image: url("./image/banner/banner2.png"); 
+  background-size: cover;
+  height: 100vh;
+
+}
+
+.header-text {
+    width: 30%;
+    position: absolute;
+    right: 247px;
+    top: 202px;
+    text-align: right;
+}
+
+.header-text h1{
+
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+.header-text p{
+    font-weight: 400;
+padding-bottom: 30px;
+}
+
+.btn-contact {
+    border: 0;
+    background-color: #F15B22;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 5px;
+}
+
+section{
+
+    margin-top: 1000px;
+    width: 80%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.about{
+
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-between;
+   
+}
+
+
+.about-right li{
+
+    list-style:square;
+}
+
+.about-right ul{
+    margin-top: 40px;
+}
+
+
+.about-right p{
+
+    margin-top: 14px;
+}
+
+.about-left{
+
+    background-image: url();
+}
+
+.plans{
+
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.watch{
+
+    background-image: url("./image/gradient2.png"),url("./image/watch.png") ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.call-btn {
+    background-color: white;
+    color: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    padding: 12px 15px;
+    margin-top: 10px;
+}
+
+.footer-content{
+
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-around;
+
+}
+
+.footer-left{
+
+    width: 50%;
+}
+.footer-left h4{
+
+    margin-bottom: 10px;
+}
+.footer-left p{
+
+margin-top: 10px;
+margin-bottom: 20px;
+
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+    padding: 100px 0;
+}
+
+input {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
